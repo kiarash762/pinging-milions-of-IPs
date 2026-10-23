@@ -1,0 +1,15 @@
+# FastPing Example Target List
+# Lines starting with '#' are ignored. Empty lines are ignored.
+# You can mix single IPs, CIDR subnets, and IP ranges!
+
+# Single IPv4 addresses:
+1.1.1.1
+8.8.8.8
+9.9.9.9
+
+# CIDR Subnets (streamed on the fly with zero RAM consumption):
+1.0.0.1/24
+104.16.0.0/24
+
+# IP Ranges:
+192.168.1.1-192.168.1.50

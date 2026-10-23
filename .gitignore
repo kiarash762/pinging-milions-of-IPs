@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Scanner output and state
+ip.txt
+alive_ips.txt
+alive_ips.csv
+alive_ips_sorted.txt
+alive_ips_sorted.csv
+*.checkpoint
+.*.checkpoint
+*.checkpoint.tmp
+.*.checkpoint.tmp
+*.tmp
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
